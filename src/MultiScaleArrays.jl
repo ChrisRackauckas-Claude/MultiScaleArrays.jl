@@ -6,7 +6,7 @@ module MultiScaleArrays
         size, similar, hcat, vcat,
         ==, *, +, -, show, reshape
 
-    import RecursiveArrayTools: recursivecopy, recursivecopy!
+    import RecursiveArrayTools: recursivecopy, recursivecopy!, chain
 
     """
     AbstractMultiScaleArray{B}
